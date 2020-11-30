@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+		<meta charset="UTF-8">
+		
+        <title>Ejemplo de POO</title>
+    </head>
+
+    <body onload="screenObj.start()">
+       
+    	<center>
+			<br>
+		    <canvas id="myCanvas" width="800" height="600" style="border:1px solid #000000;">
+
+			</canvas>
+
+			<br>
+			<button onclick="cargar()">Start</button>
+			<br><br>
+			<div style="text-align:center;width:480px;">
+				<!--<button onclick="ship.moveUp()">UP</button><br>!-->
+				<button onclick="ship.moveLeft()">LEFT</button>
+				<button onclick="ship.moveRight()">RIGHT</button><br><br>
+				<!--<button onclick="ship.moveDown()">DOWN</button><br>!-->
+				<audio id="audio" autoplay loop>
+					<source src="FeelGood.mp3" type="audio/mpeg">
+				</audio>
+			</div>
+		<center>
+
+		<script src="engine.js"></script>
+
+		
+</html> 
